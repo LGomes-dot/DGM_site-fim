@@ -1,0 +1,148 @@
+body{
+	background-color: rgb(90, 89, 89);
+	margin: 0;
+	padding: 0;
+	width: 100vw;
+	height: 90vh;
+}
+
+.botões{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	cursor: pointer;
+}
+.botões button a{
+	text-decoration: none;
+	font-size: 18px;
+	color:white;
+}
+.botões button{
+	border-radius: 50px;
+	margin: 10px;
+	background-color: transparent;
+	border: 2px solid;
+	border-color: rgb(236, 185, 65);	
+}
+.botões button:hover{
+	background-color: rgb(236, 185, 65);
+}
+
+.logo{
+	display: flex;
+	margin-right: -10%;
+}
+
+.logo img{
+	display: flex;
+    width: 45vw;
+	height: 45vw;
+	margin: 0;
+	padding: 0;
+}
+
+/* lista menu */
+nav{
+	display: flex;
+	text-transform: uppercase;
+	margin: 0;
+	padding: 0;
+}
+
+nav ul, nav ul li {
+    display: inline;
+	letter-spacing: 2px;	
+	
+}
+
+nav ul li a:hover{
+	font-size: 26px;
+	color: rgb(236, 185, 65);
+	font-weight: bold;
+}
+
+nav a {
+    text-decoration: none;
+}
+
+nav ul li a {
+    color: rgb(255, 205, 92);
+    text-decoration: none ;
+	display: flex;    
+	letter-spacing: 2px;
+	font-size: 20px;
+	line-height: 30px;
+}
+
+/* conteudo */
+ .intro {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	height: 100%;
+	width: 100%;
+} 
+
+@media screen and (min-width: 411px) {
+
+.logo{
+	margin-right: -6%;
+}
+
+}
+@media screen and (min-width: 700px) {
+
+.botões{
+margin-left: 75%;
+}
+
+.botões button a {
+	padding: 5px;
+}
+
+.logo{
+	margin-right: -2vw;
+}
+
+nav ul li a {
+	font-size: 25px;
+	line-height: 65px;
+
+}
+}
+
+
+@media screen and (min-width: 850px) {
+nav ul li a {
+	line-height: 74px;
+}
+}
+@media screen and (min-width: 970px) {
+
+.botões{
+margin-left: 80%;
+}
+
+nav ul li a {
+font-size: 28px;
+line-height: 78px;
+
+}
+}
+
+@media screen and (min-width: 1024px) {
+
+.botões{
+margin-left: 85%;
+}
+
+.logo img {
+	width: 40vw;
+	height: 40vw;
+}
+
+nav ul li a {
+	line-height: 80px;
+}
+}
+

@@ -1,0 +1,38 @@
+.btn{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 40px;
+    cursor: pointer;
+    margin-top: 1vh;
+    padding-top: 0;
+}
+.fas {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#btn2{
+    padding-left: 12vw;
+}
+
+@media screen and (min-width: 700px) {
+.btn{
+    margin-left: 25%;
+}
+}
+@media screen and (min-width: 970px) {
+
+}
+
+@media screen and (min-width: 1024px) {
+.btn{
+    position: relative;
+    margin-top: 0;
+    padding-top: -5vh;
+    margin-left: 80%;
+}
+#btn2{
+    padding-left: 4vw;
+}
+}

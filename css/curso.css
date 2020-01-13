@@ -1,0 +1,306 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+
+#btnmenu {
+    width: 180px;
+    height: 85px;
+    cursor: pointer;
+}
+.retangulo{
+    display: none;
+    position: fixed;
+}
+.lat_menu{
+    display: none;
+    position: fixed;
+}
+.desk_menu{
+    display: none;
+    position: fixed;
+}
+h4{
+    text-decoration: underline;
+    text-transform: uppercase;
+    font-size: 13px;
+    letter-spacing: 1px;
+    color: black;
+    padding-top: 15px;
+}
+
+/* conteudo */
+.informacoes{
+    display: block;
+    margin-left: 7vw;
+    margin-top: 1.5vh;
+    height: 100%;
+    width: 93%;
+    /* display: none; */
+}
+.informacoes p{
+    line-height: 1vh;
+}
+.informacoes h2{
+    margin-top: 0;
+    padding-top: 20px;
+}
+
+/* btn curso - mudar de cadeiras */
+.anos{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: -6vw;
+}
+.anos p{
+    background-color: white;
+    border: 1px solid;
+    border-color: black;
+    border-radius: 50px;
+    padding: 16px;
+    margin:25px;
+    margin-bottom: 0;
+    margin-top: 0;
+    cursor: pointer;
+}
+.anos p:hover{
+    background-color: rgb(255, 205, 92);
+    border: none;
+}
+.anos p.ano_activo {
+    background-color: rgb(255, 205, 92);
+    border: none;
+}
+.ramo{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: -6vw;
+}
+.ramo p{
+    display: none;
+    background-color: transparent;
+    border: 1px solid;
+    border-color: black;
+    border-radius: 15px;
+    padding: 15px;
+    margin: 25px;
+    margin-bottom: 0;
+    margin-top: 3vh;
+    cursor: pointer;
+}
+.ramo p:hover{
+    background-color: rgb(90, 89, 89);
+    color:  rgb(255, 205, 92);
+    border: none;
+}
+.ramo p.ramo_activo{
+    background-color: rgb(90, 89, 89);
+    color:  rgb(255, 205, 92);
+    border: none;
+}
+
+/* conteudo */
+.planocurso{
+    display: none;
+    margin-left: 7vw;
+    margin-top: 1.5vh;
+    height: 100%;
+    width: 93%;
+}
+.planocurso h2{
+    margin-top: 0;
+    padding-top: 20px;
+}
+
+
+/* conteudo cadeiras */
+.bloco{
+    display: block;
+    justify-content: center;
+    align-items: center;
+    margin-top: 3vh;
+    margin-left: 5vw;
+}
+.bloco h3{
+    text-align: center;
+    line-height: 0.5vh;
+    margin-bottom: 1.5vh;
+}
+
+.ano1{
+    width: 80%;
+    height: auto;
+    background-color: rgb(255, 205, 92);
+    padding-top: 2vh;
+    padding-bottom: 2vh;
+    padding-left: 0.5vw;
+    padding-right: 4vw;
+    border-radius: 60px;
+}
+.ano2dg{
+    width: 80%;
+    height: auto;
+    display: block;
+    background-color: rgb(255, 205, 92);
+    padding-top: 2vh;
+    padding-bottom: 2vh;
+    padding-left: 0.5vw;
+    padding-right: 4vw;
+    border-radius: 60px;
+    display: none;
+}
+.ano2dm{
+    width: 80%;
+    height: auto;
+    display: block;
+    background-color: rgb(255, 205, 92);
+    padding-top: 2vh;
+    padding-bottom: 2vh;
+    padding-left: 0.5vw;
+    padding-right: 4vw;
+    border-radius: 60px;
+    display: none;
+}
+.ano3dg{
+    width: 80%;
+    height: auto;
+    display: block;
+    background-color: rgb(255, 205, 92);
+    padding-top: 2vh;
+    padding-bottom: 2vh;
+    padding-left: 0.5vw;
+    padding-right: 4vw;
+    border-radius: 60px;
+    display: none;
+}
+.ano3dm{
+    width: 80%;
+    height: auto;
+    display: block;
+    background-color: rgb(255, 205, 92);
+    padding-top: 2vh;
+    padding-bottom: 2vh;
+    padding-left: 0.5vw;
+    padding-right: 4vw;
+    border-radius: 60px;
+    display: none;
+}
+
+
+/* conteudo */
+.objetivos{
+    display: block;
+    margin: 7vw;
+    margin-top: 1.5vh;
+    height: 100%;
+    width: 93%;
+    display: none;
+}
+.objetivos p{
+    margin-right:7vw ;
+}
+.objetivos h2{
+    margin-top: 0;
+    padding-top: 20px;
+}
+
+@media screen and (min-width: 700px) {
+
+#btnmenu{
+    display: none;
+}
+.retangulo{
+    display: block;
+    width: 200px;
+    height: 100%;
+    background-color:  rgb(90, 89, 89);
+}
+.lat_menu{
+    display: block;
+    padding-top: 33vh;
+}
+.lat_menu img{
+    width: 110px;
+    height: 230px;
+}
+
+.informacoes{
+    margin-left: 30%;
+    margin-top: 0;
+    padding-top: 5%;
+    height:85vh;
+    width: 70%;
+}
+.planocurso{
+    margin-left: 30%;
+    margin-top: 0;
+    padding-top: 5%;
+    height:85vh;
+    width: 70%;
+}
+
+.objetivos{
+    margin-left: 30%;
+    margin-top: 0;
+    padding-top: 5%;
+    height:80vh;
+    width: 70%;
+}
+}
+
+@media screen and (min-width: 1024px) {
+.retangulo{
+    width: 240px;
+    height: 100%;
+
+}
+.lat_menu{
+    display: none;
+}
+.desk_menu{
+    display: block;
+    padding-top: 33vh;
+    padding-left: 1.5%;
+}
+.desk_menu img{
+    width: 190px;
+    height: 200px;
+}
+.ecra1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.informacoes{
+    display: block;
+  
+    /* position: absolute; */
+    width: 30%;
+    margin: 0;
+    padding-left: 20%;
+}
+.planocurso{
+    display: block;
+    /* position: absolute; */
+    width: 40%;
+    margin: 0;
+    padding-left:0;
+}
+.bloco{
+    margin-left: 0;
+}
+.ecra2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.objetivos{
+    margin: 0;
+    padding-left: 23%;
+}
+.objetivos p{
+    margin-right: 40%;
+}
+}

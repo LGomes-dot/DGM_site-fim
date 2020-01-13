@@ -1,0 +1,167 @@
+.logo{
+	display: flex;
+	position:fixed;
+	padding-top: 30%;
+}
+
+.logo img{
+	display: flex;
+    width: 40vw;
+    height: 40vw;
+}
+
+nav{
+	display: flex;
+	position: fixed;
+	padding-top: 32%;
+	margin-left: 32vw;
+	padding-right: 50%;
+	text-transform: uppercase;
+	
+}
+nav ul, nav ul li {
+    display: inline;
+	letter-spacing: 2px;		
+}
+nav ul li a:hover{
+	font-size: 26px;
+	color: rgb(236, 185, 65);
+	font-weight: bold;
+}
+nav a {
+    text-decoration: none;
+}
+nav ul li a {
+    color: rgb(255, 205, 92);
+    text-decoration: none ;
+	letter-spacing: 2px;
+	font-size: 22px;
+	line-height: 25px;
+}
+
+ .intro {
+	background-color:rgba(90, 89, 89, 0.938);
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	position: fixed;
+	margin: 0;
+	padding: 5%;
+	height: 60vh;
+	width: 100vw;
+	display: none;
+
+}
+@media screen and (min-width:460px){
+nav {
+	margin-left: 35vw;
+	padding-top: 35%;
+}
+.intro{
+	padding: 10%;
+}
+}
+@media screen and (min-width:580px){
+nav {
+	margin-left: 35vw;
+	padding-top: 28%;
+}
+.logo {
+	padding-top: 20%;
+}
+.intro{
+	padding: 15%;
+}
+}
+
+@media screen and (min-width: 700px) {
+nav{
+	padding-top: 25%;
+	margin-left: 38vw;
+	margin-right: 30vw;
+}
+nav ul li a {
+	font-size: 30px;
+	line-height: 45px;
+}
+.logo{
+	padding-top: 20%;
+}
+
+.intro{
+	padding-top: 10%;
+	height: 100%;
+	width: 65%;
+	z-index: 99;
+}
+}
+@media screen and (min-width: 840px) {
+
+nav{
+	padding-top: 23%;
+	margin-left: 38vw;
+	margin-right: 30vw;
+}
+nav ul li a {
+	font-size: 30px;
+	line-height: 45px;
+}
+.logo{
+	padding-top: 15%;
+}
+
+.intro{
+	padding-top: 10%;
+	height: 100%;
+	width: 55%;
+	z-index: 99;
+}
+}
+
+@media screen and (min-width: 950px) {
+
+nav{
+	padding-top: 23%;
+	margin-left: 38vw;
+	margin-right: 30vw;
+}
+nav ul li a {
+	font-size: 30px;
+	line-height: 45px;
+}
+.logo{
+	padding-top: 15%;
+}
+
+.intro{
+	padding-top: 5%;
+	height: 100%;
+	width: 55%;
+	z-index: 99;
+}
+}
+
+@media screen and (min-width: 1024px) {
+nav {
+	padding-top:13%;
+	margin-left: 20vw;
+}
+nav ul li a {
+	line-height: 40px;
+	font-size: 23px;
+}
+.logo{
+	padding-top: 10%;
+}
+.logo img{
+	width: 20vw;
+	height: 20vw;
+}
+.intro{
+	position: absolute;
+	height: 100%;
+	width: 30%;
+	padding-left: 8%;
+	z-index: 99;
+}
+}

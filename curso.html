@@ -1,0 +1,226 @@
+<!DOCTYPE html>
+<html lang="pt">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Curso</title>
+
+    <link rel="stylesheet" href="css/curso.css">
+    <link rel="stylesheet" href="css/tipografia.css">
+    <link rel="stylesheet" href="css/menu.css">
+    <link rel="stylesheet" href="css/setas.css">
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-rss/3.3.0/jquery.rss.min.js"></script>
+    <script src='https://kit.fontawesome.com/a076d05399.js'></script>
+     <script type="text/javascript" src="js/setas_curso.js"></script>
+     <script type="text/javascript" src="js/btn_numerais.js"></script>
+     <script type="text/javascript" src="js/menu_oculto.js"></script>
+  
+</head>
+<body>
+   
+    <!-- menu oculto -->
+    <div class="intro" id="menu">
+        <div class="logo">
+        <a href="index.html"><img src="imgs/logo.png"alt="logo"></a>
+        </div>
+
+    <nav>
+        <ul>
+            <li><a href='curso.html' id="curso">Curso</a></li>
+            <li><a href='portfolio.html'>Portfolio</a></li>
+            <li><a href='eventos.html'>Eventos</a></li>
+            <li><a href='plataformas.html' id="plataformas">Plataformas</a></li>
+        </ul>
+    </nav>
+</div>
+
+<!-- conteudo da página -->
+
+      <img src="imgs/m_mob_curs.png" alt="btn menu" id="btnmenu">
+
+      <div class="retangulo">
+          <canvas></canvas>
+      </div>
+
+      <div class="lat_menu">
+      <img src="imgs/l_curs.png" alt="btn menu" id="lat_menu">
+    </div>
+      <div class="desk_menu">
+      <img src="imgs/logo_curso.png" alt="btn menu" id="desk_menu">
+    </div>
+
+
+<section id="curso">
+    
+<!-- informações -->
+<div class="ecra1">
+    <main id="informacoes" class="informacoes">
+        <!-- onclick="trocaClasse(this,'informacoes', 'escondido')"; -->
+
+        <h2>Ramos:</h2>
+        <p> Design Gráfico.</p>
+        <p> Design Multimédia.</p>
+
+        <h2>Duração:</h2>
+        <p> 6 semestres.</p>
+
+        <h2>ECTS:</h2>
+        <p> 180.</p>
+
+        <h2>Regime:</h2>
+        <p>Diurno, Pós-laboral.</p>
+
+        <h2>Coordenador de Curso:</h2>
+        <p>Paulo Jorge Soares da Silva</p>
+        <p>paulo.silva@ipleira.pt</p>
+    
+        <a target="_blank" rel="noopener noreferrer" href="https://www.ipleiria.pt/cursos/course/licenciatura-em-design-grafico-e-multimedia/"><h4>Mais Informações</h4> </a>
+    </main>
+    
+<!-- troca de página -->
+<!-- plano de curso -->
+
+    <main class="planocurso" id="planocurso">
+
+        <h2>Plano de Curso:</h2>
+        <div class="anos">
+        <p id="prim" class="ano_activo">1º</p>
+        <p id="seg">2º</p>
+        <p id="ter">3º</p>
+        </div>
+
+        <div class="ramo">
+        <p id="dg" class="ramo_activo">DG</p>
+        <p id="dm">DM</p>
+        </div>
+
+
+    <main class="bloco" >
+    <div class="ano1" id="ano1">
+        <ul>
+        <h3>S1</h3>
+        <li> Projeto de Design de Comunicação I</li>
+        <li>Desenho I</li>
+        <li>Tipografia I</li>
+        <li>Introdução ao Pensamento de Projeto</li>
+        <li>Ferramentas Digitais I</li>
+        </ul>
+        <ul>
+        <h3>S2</h3>
+        <li>Projeto de Design de Comunicação II</li>
+        <li>Desenho II</li>
+        <li>Tipografia II</li>
+        <li>Teoria e História do Design</li>
+        <li>Ferramentas Digitais II</li>
+        </ul>
+    </div>
+    </main>
+
+    <main class="bloco">
+    <div class="ano2dg" id="ano2dg">
+        <ul><h3>S1</h3>
+        <li>Projeto de Design Gráfico I</li>
+        <li>Introdução à Fotografia</li>
+        <li>Ilustração para Design</li>
+        <li>Meios de Impressão I</li>
+        <li>Opção Livre</li>
+        </ul>
+        <ul>
+        <h3>S2</h3>
+        <li>Projeto de Design Gráfico II</li>
+        <li>Design de Informação</li>
+        <li>Grafismo, Movimento e Interfaces</li>
+        <li>Meios de Impressão II</li>
+        <li>Opção Condicionada</li>
+        </ul>
+    </div>
+    </main>
+
+    <main class="bloco">
+    <div class="ano2dm" id="ano2dm">
+        <ul><h3>S1</h3>
+        <li>Projeto de Design Multimédia I</li>
+        <li>Introdução à Fotografia</li>
+        <li>Prototipagem Digital I</li>
+        <li>Tecnologias de Video</li>
+        <li>Opção Condicionada</li>
+        </ul>
+        <ul>
+        <h3>S2</h3>
+        <li>Projeto de Design Multimédia II</li>
+        <li>Prototipagem Digital II</li>
+        <li>Som para objetos de Intereção</li>
+        <li>Acessibilidade e Usabilidade na Web</li>
+        <li>Opção Livre</li>
+    </ul>
+    </div>
+    </main>
+
+    <main class="bloco">
+    <div class="ano3dg" id="ano3dg">
+        <ul><h3>S1</h3>
+        <li>Projeto de Design Gráfico III</li>
+        <li>Tipografia III</li>
+        <li>Teoria dos Media</li>
+        <li>Prática e Ética Profissional</li>
+        <li>Gestão de Projeto</li>
+        </ul>
+        <ul>
+        <h3>S2</h3>
+        <li>Projeto de Design Gráfico IV</li>
+        <li>Práticas Avançadas de Design</li>
+        <li>Opção Livre</li>
+        <li>//</li>
+        <li>Projeto Integrado em Empresa</li>
+        </ul>
+    </div>
+    </main>
+
+    <main class="bloco">
+    <div class="ano3dm" id="ano3dm">
+        <ul><h3>S1</h3>
+        <li>Projeto de Design Multimédia III</li>
+        <li>Laboratório de Projeto I</li>
+        <li>Teoria dos Media</li>
+        <li>Prática e Ética Profissional</li>
+        <li>Gestão de Projeto</li>
+        </ul>
+        <ul>
+        <h3>S2</h3>
+        <li>Projeto de Design Multimédia IV</li>
+        <li>Laboratório de Projeto II</li>
+        <li>Opção Livre</li>
+        <li>//</li>
+         <li>Projeto Integrado em Empresa</li>
+        </ul>
+    </div>
+    </main>
+</main>
+</div>
+<!-- troca de página -->
+<!-- objetvos -->
+<div class="ecra2">
+<main class="objetivos" id="objetivos">
+    <h2 id="title">Obetivos:</h2>
+    <p>Conhecer as diferentes condições (técnicas, materiais e humanas) de resolução de um problema de design e prepará-lo para as integrar, de um modo autónomo, empreendedor e esclarecido num projeto, em modo direto ou cooperativo</p>
+
+     <h2 id="title2">Saídas Profissionais:</h2>
+    <p>Design de comunicação, gráfico e multimédia;</p>
+    <p>Design editorial, packaging, tipografia, art direction, branding e ilustração;</p> 
+    <p>Design, design de informação para cinema, televisão e new media, design de interfaces multimédia, programador e developer para mobile media e timebased media.</p>
+</main>
+</div>
+</section>
+
+<!-- setas -->
+
+    <footer class="btn"> 
+        <i id="btn1" class='fas fa-angle-left'></i> 
+        <i id="btn2" class='fas fa-angle-right'></i>
+    </footer> 
+
+</body>
+</html>
